@@ -1,0 +1,104 @@
+@font-face {
+  font-family: MateSC;
+  src: url("../../font/MateSC-Regular.ttf");
+}
+@font-face {
+  font-family: MateItalic;
+  src: url("../../font/Mate-Italic.ttf");
+}
+.content-mobile-right {
+  color: #6695ca;
+  background-color: #000000;
+  font-family: MateSC;
+}
+
+.home-page-mobile-right {
+  .home-page-mobile-container {
+    .content-wrapper {
+      .title {
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        padding: 16px 24px;
+        border-top: 1px solid #6695ca;
+        border-bottom: 1px solid #6695ca;
+      }
+      .image {
+        padding: 53px 27px;
+        text-align: center;
+        .img {
+          width: 95%;
+        }
+      }
+    }
+  }
+}
+
+.prologue-page-mobile-right {
+  transition: all 0.5s ease-out;
+  background-color: #ffffff;
+  .prologue-page-mobile-container {
+    .image {
+      padding: 53px 27px;
+      text-align: center;
+      border-top: 1px solid #6695ca;
+      .img {
+        width: 95%;
+      }
+    }
+  }
+}
+
+.case-study-page-mobile-right {
+  background-color: #6695ca;
+  color: #000000;
+  border-top: 1px solid #000000;
+  box-shadow: 0.5px 2px 5px rgba(0, 0, 0, 0.3);
+  .case-study-page-mobile-container {
+    padding: 66px 27px 70px 27px;
+    .wrapper-content {
+      padding: 33px 30px;
+      background-color: #ffffff;
+      .title {
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 20px;
+      }
+      .description {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 20px;
+        text-align: justify;
+      }
+      .sub-text-case-study {
+        font-size: 11px;
+        line-height: 15px;
+        font-family: MateItalic;
+      }
+      .img-wrapper {
+        text-align: center;
+        img {
+          width: 190px;
+          height: 190px;
+        }
+      }
+    }
+  }
+}
+
+.exclusive-page-mobile-right {
+  .exclusive-page-mobile-container {
+    .image {
+      padding: 53px 27px;
+      text-align: center;
+      border-top: 1px solid #6695ca;
+      .img {
+        width: 95%;
+      }
+    }
+  }
+}
+
+.inquiry-page-mobile-right {
+  background-color: #ffffff;
+}

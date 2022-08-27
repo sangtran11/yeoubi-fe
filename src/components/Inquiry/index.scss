@@ -1,0 +1,249 @@
+@font-face {
+  font-family: MateSC;
+  src: url("../../font/MateSC-Regular.ttf");
+}
+@font-face {
+  font-family: MateItalic;
+  src: url("../../font/Mate-Italic.ttf");
+}
+.inquiry-page {
+  font-family: MateSC;
+  padding: 0 1px;
+  .my-16 {
+    margin: 16px 0;
+  }
+  .text-section {
+    background: #fffcf6;
+    box-shadow: 0.5px 2px 5px rgb(0 0 0 / 30%);
+    padding: 40px 80px;
+    text-align: justify;
+    line-height: 18px;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+  }
+  .form-section {
+    background: #fffcf6;
+    box-shadow: 0.5px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 40px 80px;
+    margin-top: 5px;
+    max-height: 775px;
+    overflow-y: auto;
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    input[type="number"] {
+      -moz-appearance: textfield;
+    }
+    .float-right {
+      float: right;
+    }
+    .color-red {
+      color: red;
+    }
+    .text-align-right {
+      text-align: right;
+    }
+    .form-title {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 36px;
+    }
+    .inquiry-form {
+      .when-field {
+        display: flex;
+        justify-content: space-between;
+        .item {
+          width: 30%;
+          text-align: center;
+          .ant-input {
+            text-align: center;
+          }
+        }
+      }
+      .ant-input {
+        border-radius: 18px;
+        border: 1px solid #000000;
+        color: #000000;
+        height: 32px;
+      }
+      .ant-radio-group {
+        width: 100%;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .mb-1r {
+          margin-bottom: 16px;
+        }
+        .ant-radio-button-wrapper {
+          width: 48%;
+          text-align: center;
+          border-radius: 18px;
+          border: 1px solid #000000;
+          color: #000000;
+          padding: 0 10px;
+          &:before {
+            display: none;
+          }
+          .ant-radio-button-checked {
+            background-color: black;
+            border-radius: 18px;
+          }
+        }
+        .ant-radio-button-wrapper-checked {
+          color: #ffffff;
+        }
+      }
+      .ant-slider-rail {
+        border-radius: 18px;
+        background-color: white;
+        border: 1px solid black;
+        height: 7px;
+      }
+      .ant-slider-track {
+        height: 7px;
+        background-color: #000000;
+        border-radius: 18px;
+      }
+      .ant-tooltip-open {
+        border-color: #000000;
+      }
+      .ant-slider-handle {
+        border: solid 2px #000000;
+        &:focus {
+          border-color: #000000;
+        }
+      }
+      .btn-submit {
+        border: none;
+        background-color: black;
+        border-radius: 18px;
+        width: 100%;
+        color: #ffffff;
+      }
+      .title-field {
+        line-height: 18px;
+      }
+      .other-wrapper {
+        width: 100%;
+        display: flex;
+        .other-label {
+          width: 50%;
+          text-align: right;
+          padding-right: 16px;
+        }
+        .other-field {
+          width: 50%;
+          .ant-form-item {
+            width: 95%;
+          }
+        }
+      }
+    }
+  }
+  .form-section::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .form-section {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .contact {
+    margin-top: 36px;
+    text-align: justify;
+    line-height: 18px;
+  }
+  .sub-text {
+    font-family: MateItalic;
+    font-size: 0.71875rem;
+    line-height: 13px;
+  }
+  .ant-form-item-explain-error {
+    font-family: MateItalic;
+    font-size: 0.625rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .inquiry-page {
+    padding: 0 28px;
+    .text-section {
+      padding: 40px 34px;
+      font-size: 15px;
+      line-height: 18px;
+    }
+    .form-section {
+      padding: 40px 34px;
+      overflow: hidden;
+      max-height: 100%;
+      margin-bottom: 115px;
+      .form-title {
+        font-size: 30px;
+      }
+      .inquiry-form {
+        .title-field {
+          padding-bottom: 4px;
+          font-size: 12px;
+          line-height: 15px;
+        }
+        .ant-radio-group {
+          .ant-radio-button-wrapper {
+            span {
+              font-size: 12px;
+            }
+          }
+        }
+        .ant-input {
+          font-size: 12px;
+          line-height: 15px;
+        }
+        .btn-submit {
+          font-size: 15px;
+          line-height: 18px;
+        }
+      }
+    }
+    .sub-text {
+      margin: 0;
+      font-size: 9px;
+    }
+    .mb-subtext {
+      margin-bottom: 5px;
+    }
+  }
+  .ant-form-item {
+    margin-bottom: 12px;
+  }
+
+  .contact {
+    .text {
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+
+  .right-content-mobile {
+    font-family: MateItalic;
+    background: #fffcf6;
+    box-shadow: 0.5px 2px 5px rgb(0 0 0 / 30%);
+    color: #000000;
+    line-height: 17px;
+    padding: 40px 34px;
+    margin-top: 5px;
+    .item-wrapper {
+      text-align: center;
+      .title {
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+      .img {
+        width: 120px;
+      }
+    }
+  }
+}

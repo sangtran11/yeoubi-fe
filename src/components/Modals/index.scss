@@ -1,0 +1,138 @@
+@font-face {
+  font-family: MateSC;
+  src: url("../../font/MateSC-Regular.ttf");
+}
+@font-face {
+  font-family: MateItalic;
+  src: url("../../font/Mate-Italic.ttf");
+}
+.ant-modal-body {
+  padding: 50px;
+  position: relative;
+  .close-icon {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    img {
+      width: 25px;
+      cursor: pointer;
+    }
+  }
+}
+.candle-care-modal {
+  color: #000000;
+  font-family: MateSC;
+  .title {
+    font-size: 2.5rem;
+    height: 50px;
+  }
+  .sub-title {
+    line-height: 18px;
+    font-family: MateItalic;
+    font-size: 0.9375rem;
+    margin-bottom: 16px;
+  }
+  .left-side {
+    position: relative;
+    .content-container {
+      margin-top: 75px;
+      display: flex;
+      flex-wrap: wrap;
+      .item {
+        width: 33%;
+        flex-grow: 1;
+        p {
+          position: relative;
+          span {
+            position: absolute;
+            bottom: 12px;
+          }
+        }
+        .mid-image {
+          margin-bottom: 12px;
+        }
+        .description {
+          text-align: left;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+  .right-side {
+    position: relative;
+    .wrap-content-right-side {
+      margin-top: 90px;
+      .item {
+        text-align: left;
+        line-height: 18px;
+      }
+      .burn-text {
+        margin-bottom: 32px;
+      }
+      .mb-32 {
+        margin-bottom: 32px;
+      }
+    }
+  }
+  .sub-text {
+    font-family: MateItalic;
+    font-size: 0.9375rem;
+    margin-bottom: 16px;
+  }
+  .img-icon {
+    padding-left: 4px;
+    width: 22%;
+  }
+  .color-transparent {
+    color: transparent;
+  }
+  .mb-0 {
+    margin-bottom: 0;
+  }
+}
+
+.submit-modal {
+  font-family: MateSC;
+  .name {
+    font-size: 2.5rem;
+    line-height: 21px;
+    margin-bottom: 8px;
+  }
+  .description {
+    line-height: 18px;
+    color: #221f1f;
+    margin-bottom: 52px;
+  }
+  .button-section {
+    .btn {
+      line-height: 18px;
+      background: #ffffff;
+      border: 0.5px solid #000000;
+      border-radius: 15px;
+      padding: 3px 18px;
+      cursor: pointer;
+      &:hover {
+        background: #000000;
+        color: #ffffff;
+      }
+    }
+    .mr-10 {
+      margin-right: 10px;
+    }
+  }
+  .img-submit {
+    width: 32%;
+    float: right;
+  }
+  .loading-section {
+    text-align: center;
+    height: 272px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}

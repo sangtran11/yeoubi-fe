@@ -1,0 +1,101 @@
+@font-face {
+  font-family: MateSC;
+  src: url("../../font/MateSC-Regular.ttf");
+}
+@font-face {
+  font-family: MateItalic;
+  src: url("../../font/Mate-Italic.ttf");
+}
+
+p {
+  margin: 0;
+}
+
+.candle-care-page {
+  padding: 0 28px;
+  .candle-care-content {
+    background-color: #fffcf6;
+    margin-bottom: 3px;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.3);
+    padding: 70px 33px;
+    font-family: MateSC;
+    color: #000000;
+    .title-wrapper {
+      margin-bottom: 33px;
+      .title {
+        font-size: 30px;
+        line-height: 21px;
+        margin-bottom: 8px;
+      }
+      .sub-title {
+        font-size: 14px;
+        line-height: 17px;
+        font-family: MateItalic;
+      }
+    }
+    .item-wrapper {
+      margin-bottom: 33px;
+      .item-name {
+        font-family: MateItalic;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 24px;
+      }
+      .item-description {
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 16px;
+      }
+      .margin-b-0 {
+        margin-bottom: 0;
+      }
+      .item-image {
+        margin-bottom: 24px;
+        display: flex;
+        align-items: flex-end;
+        img {
+          width: 43px;
+          height: 68px;
+          margin: 0 10px;
+        }
+      }
+    }
+    .margin-b-0 {
+      margin-bottom: 0;
+    }
+  }
+  .candle-care-warning {
+    background-color: #fffcf6;
+    margin-bottom: 115px;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.3);
+    padding: 70px 33px;
+    font-family: MateSC;
+    color: #000000;
+    .title-wrapper {
+      margin-bottom: 33px;
+      .title {
+        font-size: 30px;
+        line-height: 21px;
+        margin-bottom: 8px;
+      }
+      .sub-title {
+        font-size: 14px;
+        line-height: 17px;
+        font-family: MateItalic;
+      }
+    }
+    .item-wrapper {
+      .item-description {
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 24px;
+      }
+      .margin-b-0 {
+        margin-bottom: 0;
+      }
+    }
+    .margin-b-0 {
+      margin-bottom: 0;
+    }
+  }
+}

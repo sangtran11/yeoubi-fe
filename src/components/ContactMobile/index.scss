@@ -1,0 +1,61 @@
+@font-face {
+  font-family: MateSC;
+  src: url("../../font/MateSC-Regular.ttf");
+}
+@font-face {
+  font-family: MateItalic;
+  src: url("../../font/Mate-Italic.ttf");
+}
+
+.contact-mobile {
+  font-family: MateSC;
+  font-size: 1.125rem;
+  color: #6695ca;
+  background-color: #000000;
+  a {
+    color: #6695ca;
+  }
+  .contact-wrapper {
+    line-height: 19px;
+    padding: 88px 64px;
+    text-align: center;
+    border-top: 1px solid #6695ca;
+    height: 288px;
+    line-height: 23px;
+  }
+  .copy-right-wrapper {
+    padding: 14px 8px;
+    text-align: center;
+    border-top: 1px solid #6695ca;
+    line-height: 18px;
+    height: 50px;
+  }
+}
+
+.prologue-page-contact {
+  transition: all 0.5s ease-out;
+  background-color: #ffffff;
+  // border-bottom: 1px solid #6695ca;
+}
+
+.case-study-page-contact {
+  background-color: #6695ca;
+  color: #000000;
+  a {
+    color: #000000;
+  }
+  .contact-wrapper {
+    border-top: 1px solid #000000;
+  }
+  .copy-right-wrapper {
+    border-top: 1px solid #000000;
+  }
+}
+
+.exclusive-page-contact {
+}
+
+.inquiry-page-contact {
+  transition: all 0.5s ease-out;
+  background-color: #ffffff;
+}

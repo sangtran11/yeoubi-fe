@@ -1,0 +1,40 @@
+@font-face {
+  font-family: MateItalic;
+  src: url("../../font/Mate-Italic.ttf");
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6695ca;
+  line-height: 19px;
+  min-height: 35px;
+  border-bottom: 1px solid #6695ca;
+  background-color: #000000;
+  transition: all 0.5s ease-out;
+  font-family: MateItalic;
+}
+.prologue-page-header {
+  background-color: #ffffff;
+  transition: all 0.5s ease-out;
+}
+
+.case-study-page-header {
+  transition: all 0.5s ease-out;
+  color: #000000;
+  background-color: #6695ca;
+  border-bottom: 1px solid #000000;
+}
+
+.inquiry-page-header {
+  background-color: #ffffff;
+  transition: all 0.5s ease-out;
+}
+
+@media (max-width: 992px) {
+  .header {
+    padding: 50px 60px 23px 60px;
+    font-size: 19px;
+    height: 75px;
+  }
+}

@@ -1,0 +1,27 @@
+@import "~antd/dist/antd.css";
+@font-face {
+  font-family: MateRegular;
+  src: url("./font/Mate-Regular.ttf");
+}
+@font-face {
+  font-family: MateItalic;
+  src: url("./font/Mate-Italic.ttf");
+}
+@font-face {
+  font-family: MateSC;
+  src: url("./font/MateSC-Regular.ttf");
+}
+body {
+  margin: 0;
+  font-family: MateRegular;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  cursor: url(../public/assets/images/mini.pointer.png), auto;
+}
+
+.ant-tooltip {
+  z-index: 0;
+  font-family: MateSC !important;
+}

@@ -1,0 +1,59 @@
+@font-face {
+  font-family: MateSC;
+  src: url("../../font/MateSC-Regular.ttf");
+}
+@font-face {
+  font-family: MateItalic;
+  src: url("../../font/Mate-Italic.ttf");
+}
+
+.submit-inquiry-page {
+  padding: 70px 28px;
+  font-family: MateSC;
+  .title {
+    font-size: 30px;
+    line-height: 21px;
+    margin-bottom: 15px;
+  }
+  .description {
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 24px;
+  }
+  .button-wrapper {
+    margin-bottom: 38px;
+    .btn {
+      line-height: 18px;
+      background: #ffffff;
+      border: 0.5px solid #000000;
+      border-radius: 15px;
+      padding: 3px 18px;
+      cursor: pointer;
+      line-height: 18px;
+      &:hover {
+        background: #000000;
+        color: #ffffff;
+      }
+    }
+    .mr-10 {
+      margin-right: 10px;
+    }
+  }
+  .img-wrapper {
+    img {
+      width: 170px;
+      float: right;
+    }
+  }
+}
+.loading-section {
+  text-align: center;
+  height: 371px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 65px;
+    height: 65px;
+  }
+}

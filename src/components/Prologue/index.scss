@@ -1,0 +1,71 @@
+@font-face {
+  font-family: MateSC;
+  src: url("../../font/MateSC-Regular.ttf");
+}
+@font-face {
+  font-family: MateItalic;
+  src: url("../../font/Mate-Italic.ttf");
+}
+.prologue-page {
+  transition: all 0.5s ease-out;
+  font-family: MateSC;
+  padding: 0 1px;
+  .prologue-container {
+    padding: 40px 80px;
+    background-color: #fffcf6;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.3);
+    max-height: 960px;
+    overflow-y: auto;
+    .title {
+      font-size: 2.5rem;
+      margin-bottom: 32px;
+    }
+    .sub-title {
+      font-size: 15px;
+      margin-bottom: 16px;
+      font-family: MateItalic;
+    }
+    .description {
+      margin-bottom: 16px;
+      text-align: justify;
+      line-height: 18px;
+    }
+    .img-container {
+      text-align: center;
+      margin: 24px;
+    }
+    img {
+      width: 30%;
+    }
+  }
+  .prologue-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .prologue-container {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+@media (max-width: 992px) {
+  .prologue-page {
+    padding: 0 27px;
+    margin-bottom: 115px;
+    .prologue-container {
+      max-height: 100%;
+      padding: 73px 33px 40px 33px;
+      img {
+        width: 180px;
+      }
+      .description {
+        font-size: 15px;
+      }
+      .sub-title {
+        font-size: 14px;
+        line-height: 17px;
+      }
+    }
+  }
+}
