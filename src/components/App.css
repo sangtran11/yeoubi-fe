@@ -11,6 +11,10 @@
   display: none;
 }
 
+a {
+  cursor: url(../../public/assets/images/mini.pointer.png), auto;
+}
+
 /* Medium Devices, Desktops */
 @media (max-width: 992px) {
   .desktop {
