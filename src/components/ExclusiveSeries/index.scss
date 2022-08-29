@@ -45,7 +45,6 @@
       border: 1px solid #6695ca;
       border-radius: 14px 0 0px 14px;
       background: transparent;
-      cursor: pointer;
       position: absolute;
       transition: all 0.5 ease-out;
       &:hover {
@@ -104,6 +103,80 @@
     display: block;
   }
 
+  .exclusive-series {
+    border: none;
+    .sub-text {
+      font-family: MateItalic;
+      font-size: 0.875rem;
+    }
+    .wrapper-mobile {
+      padding: 0 27px;
+      .name-section {
+        border-left: 1px solid #6695ca;
+        border-right: 1px solid #6695ca;
+        height: 107px;
+        align-items: center;
+        margin-bottom: 0;
+        .name {
+          border-top: none;
+          font-size: 1.875rem;
+          height: auto;
+          line-height: 21px;
+        }
+      }
+      .categories-section {
+        border-left: 1px solid #6695ca;
+        border-right: 1px solid #6695ca;
+        font-size: 0.9375rem;
+        line-height: 18px;
+        height: 70px;
+        .item-mass {
+          padding: 15px 30px;
+        }
+      }
+      .carousel-img-section {
+        border-left: 1px solid #6695ca;
+        border-right: 1px solid #6695ca;
+        border-bottom: 1px solid #6695ca;
+        height: 445px;
+        .carousel-container {
+          position: relative;
+          top: 50%;
+          transform: translateY(-50%);
+          .img-item {
+            .img {
+              width: 55%;
+              padding: 0;
+            }
+          }
+        }
+        .prev {
+          left: -15px;
+        }
+        .next {
+          right: -15px;
+        }
+        .nav-carousel {
+          width: 15px;
+          height: 130px;
+        }
+      }
+      .description-section {
+        border-left: 1px solid #6695ca;
+        border-right: 1px solid #6695ca;
+        width: 100%;
+        padding: 33px 16px;
+        margin: 0;
+        .text {
+          font-size: 15px;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
   .exclusive-series {
     border: none;
     .sub-text {

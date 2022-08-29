@@ -3,7 +3,7 @@ import "./index.scss";
 import { Col, Row, Form, Input, Button, Radio, Slider } from "antd";
 import axios from "axios";
 import { AppContext } from "../Context/AppProvider";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const inquiry_1 =
   "https://lh3.googleusercontent.com/oYS9Zalrk1s2esIZvgzvOiuxaOcCwm_Ht6pVP3Sc7H8Jk9ynLB7ZAvI4h8YSAsnLLS1ANQWPANzdojyT0okYsuWD3EsA_JmtHERAT3cxTwGe-TFwuYBEthpWDHoHkZid8807dA9Y8w=w2400";
@@ -242,9 +242,9 @@ const Inquiry = () => {
               >
                 <Radio.Group>
                   <Radio.Button className="mr-px" value="VIETNAMESE">
-                    vietnamese
+                    vi
                   </Radio.Button>
-                  <Radio.Button value="ENGLISH">english</Radio.Button>
+                  <Radio.Button value="ENGLISH">en</Radio.Button>
                 </Radio.Group>
               </Form.Item>
             </Col>
@@ -507,7 +507,7 @@ const Inquiry = () => {
                 <Radio.Group>
                   {widthScreen > 991 ? (
                     <Radio.Button className="mb-1r" value="IG/FB">
-                      instagram/facebook
+                      ig/fb
                     </Radio.Button>
                   ) : (
                     <Radio.Button className="mb-1r" value="IG/FB">

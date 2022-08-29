@@ -30,7 +30,6 @@
     .sidebar-icon {
       width: 25px;
       height: 18px;
-      cursor: pointer;
     }
   }
   .text-right {
@@ -57,7 +56,7 @@
   transition: all 0.5s ease-out;
   font-family: MateItalic;
   padding: 25px 60px;
-  font-size: 19px;
+  font-size: 17px;
   height: 50px;
 }
 
@@ -98,7 +97,6 @@
     .close-icon {
       color: red;
       text-align: right;
-      cursor: pointer;
       .x-icon {
         width: 25px;
       }
@@ -192,6 +190,7 @@
                 color: #000000;
                 &:hover {
                   background-color: #ffffff;
+                  border: 1px solid #ffffff;
                 }
               }
             }

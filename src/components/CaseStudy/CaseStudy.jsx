@@ -9,7 +9,7 @@ const imagesList = [
     imgUrl:
       "https://lh3.googleusercontent.com/wPgDPpTG3qVsFVezOdQ8ezrTr5QtdiYjLhx6pNF8JPYCP9Nua-E1AV6m9akgJify4CzwJQeHdmNTVCuvgJ0KU2Tm45IWXeqTvYl36e8LEJf6FaAbNq8HJeMiuTirxPJ2SdCXrZW1EQ=w2400",
     layer: "(floral)",
-    mass1: `220 g net wt. <span class="subText">(60 hours)</span>`,
+    mass1: `220g net wt. <span class="subText">(60 hours)</span>`,
     mass2: `vnd 480.000 <span class="subText">(vat included)</span>`,
     mass1Mobile: `220 g net wt.<br/><span class="subText">(60 hours)</span>`,
     mass2Mobile: `vnd 480.000<br/><span class="subText">(vat included)</span>`,
@@ -22,7 +22,7 @@ const imagesList = [
     imgUrl:
       "https://lh3.googleusercontent.com/BbrZ_T8-BHbZp96S3dHE0764OIliylDJNFYGauroKWSb4EDunNRsYqlrS2AbIrkpvlTXS_xr9yehdGQKBiXYydgs4qlfEiCFXwG_GGWwLTko45tKuyFKwtWpwzNFMz9YmaI2-umMHw=w2400",
     layer: "(aquatic)",
-    mass1: `220 g net wt. <span class="subText">(60 hours)</span>`,
+    mass1: `220g net wt. <span class="subText">(60 hours)</span>`,
     mass2: `vnd 480.000 <span class="subText">(vat included)</span>`,
     mass1Mobile: `220 g net wt.<br/><span class="subText">(60 hours)</span>`,
     mass2Mobile: `vnd 480.000<br/><span class="subText">(vat included)</span>`,
@@ -35,7 +35,7 @@ const imagesList = [
     imgUrl:
       "https://lh3.googleusercontent.com/T3coKCr3X1R1R9vkc-pI6bW4IhEysf3CvSeYYjjC1SKx4spby7jzCh27qFjEAkFYicQmvrhdRnOhStU3vqalovJnsaGsQbTjevsVxoyhtH813Y3jz9hdNNu3s5FPuBem2xTEXVhoTw=w2400",
     layer: "(green)",
-    mass1: `220 g net wt. <span class="subText">(60 hours)</span>`,
+    mass1: `220g net wt. <span class="subText">(60 hours)</span>`,
     mass2: `vnd 480.000 <span class="subText">(vat included)</span>`,
     mass1Mobile: `220 g net wt.<br/><span class="subText">(60 hours)</span>`,
     mass2Mobile: `vnd 480.000<br/><span class="subText">(vat included)</span>`,
@@ -48,7 +48,7 @@ const imagesList = [
     imgUrl:
       "https://lh3.googleusercontent.com/LJ7df1fQDc7GUjF1ilK3wtxOiJFWKFu2maYAhxi0V1ixoRRshkmaPLZ8H_kdYPB5RoJzjhleWzWzqlaJnHxKChjpYHNK717dQbwqaCSB7N-drMIm7JUibeA4FaReFRIqNtzO6UfPpQ=w2400",
     layer: "(citrus)",
-    mass1: `220 g net wt. <span class="subText">(60 hours)</span>`,
+    mass1: `220g net wt. <span class="subText">(60 hours)</span>`,
     mass2: `vnd 480.000 <span class="subText">(vat included)</span>`,
     mass1Mobile: `220 g net wt.<br/><span class="subText">(60 hours)</span>`,
     mass2Mobile: `vnd 480.000<br/><span class="subText">(vat included)</span>`,
@@ -61,7 +61,7 @@ const imagesList = [
     imgUrl:
       "https://lh3.googleusercontent.com/4Kqt-ZAIXDd4kyydJzg6avmEbjecg39pSYwE8jbB7JrlsfhxLChhnfqwH0_yaJ3Kq35gss-DAwst9TwdqgJJwqb62PZKgnbxPuS4ylMM34zeU-_cXeoY8eNIiDsrET0F8x9KDZiLYA=w2400",
     layer: "(fruity)",
-    mass1: `220 g net wt. <span class="subText">(60 hours)</span>`,
+    mass1: `220g net wt. <span class="subText">(60 hours)</span>`,
     mass2: `vnd 480.000 <span class="subText">(vat included)</span>`,
     mass1Mobile: `220 g net wt.<br/><span class="subText">(60 hours)</span>`,
     mass2Mobile: `vnd 480.000<br/><span class="subText">(vat included)</span>`,

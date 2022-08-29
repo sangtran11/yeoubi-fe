@@ -40,7 +40,6 @@
       height: 102px;
       border-radius: 14px 0 0px 14px;
       background: transparent;
-      cursor: pointer;
       position: absolute;
       transition: all 0.5 ease-out;
       &:hover {
@@ -99,7 +98,6 @@
     .item {
       padding: 17px 0;
       text-align: center;
-      cursor: pointer;
       width: 100%;
       background-color: transparent;
       transition: all 0.5s ease-out;
@@ -162,6 +160,99 @@
   .mobile {
     display: block;
   }
+  .case-study-page {
+    border: none;
+    .wrapper-mobile {
+      padding: 0 27px;
+      .name-section {
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        height: 107px;
+        .name {
+          font-size: 1.875rem;
+        }
+      }
+      .new-name {
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        height: 107px;
+        color: #6695ca;
+        background-color: #000000;
+        .name {
+          font-size: 1.875rem;
+        }
+      }
+      .categories-section {
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        font-size: 0.9375rem;
+        line-height: 18px;
+        height: 70px;
+        .item-mass {
+          padding: 15px 38px;
+        }
+      }
+      .bt-black {
+        border-top: 1px solid #000000;
+      }
+      .carousel-img-section {
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        height: 445px;
+        .carousel-container {
+          position: relative;
+          top: 50%;
+          transform: translateY(-50%);
+          .img-item {
+            .img {
+              width: 35%;
+              padding: 0;
+            }
+          }
+        }
+        .prev {
+          left: -15px;
+        }
+        .next {
+          right: -15px;
+        }
+        .nav-carousel {
+          width: 15px;
+          height: 130px;
+        }
+        .display-layer {
+          display: block;
+          font-size: 100px;
+        }
+        .display-layer-fire {
+          display: block;
+          width: 58%;
+        }
+      }
+      .description-section {
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        width: 100%;
+        padding: 33px 16px;
+        margin: 0;
+        .text {
+          font-size: 15px;
+        }
+        .subdescription {
+          font-family: MateItalic;
+          font-size: 0.875rem;
+        }
+      }
+    }
+    .subText {
+      font-family: MateItalic;
+      font-size: 0.875rem;
+      line-height: 17px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
   .case-study-page {
     border: none;
     .wrapper-mobile {
